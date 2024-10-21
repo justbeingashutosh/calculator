@@ -1,57 +1,27 @@
+:root{
+    --bg: #021b08;
+    --primary: #71f58c;
+    --text: #d9fce0;
+    --accent: #2bd2f0;
+  }
+
 /* Utility Classes */
 
 .btn {
-  border-radius: 100px;
+  border-radius: 20px;
   display: inline-block;
   letter-spacing: -0.05em;
+  background-color: black;
+  height:90px;
+  width:90px;
+  color: var(--text);
+  margin: 0.1em;
+  font-size: 50px;
+  user-select: none;
+  flex-grow: 1;
+  border: none;
 }
 
 .container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-/* xs */
-@media (min-width: 475px) {
-    .container{
-        max-width: 475px;
-    }
-}
-
-/* sm */
-@media (min-width: 640px) {
-    .container{
-        max-width: 640px;
-    }
-}
-
-/* base */
-@media (min-width: 768px) {
-    .container{
-        max-width: 768px;
-    }
-}
-
-/* lg */
-@media (min-width: 1024px) {
-    .container{
-        max-width: 1024px;
-    }
-}
-
-/* xlg */
-@media (min-width: 1280px) {
-    .container{
-        max-width: 1280px;
-    }
-}
-
-/* 2xlg */
-@media (min-width: 1536px) {
-    .container{
-        max-width: 1536px;
-    }
+  width: 100vw;
 }

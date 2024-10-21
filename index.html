@@ -1,13 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="utils.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="main">
+    <div id="screen"></div>
+    <div class="key-pad">
+      <button class="btn" id="all-clr" >AC</button>
+      <button class="btn" id="bkspc">Del</button>
+      <button class="btn one num" content="1">1</button>
+      <button class="btn two num" content="2">2</button>
+      <button class="btn three num" content="3">3</button>
+      <button class="btn four num" content="4">4</button>
+      <button class="btn five num" content="5">5</button>
+      <button class="btn six num" content="6">6</button>
+      <button class="btn seven num" content="7">7</button>
+      <button class="btn eight num" content="8">8</button>
+      <button class="btn nine num" content="9">9</button>
+      <button class="btn zero num" content="0">0</button>
+      <button class="btn point num" content=".">.</button>
+      <button class="btn num" id="pls" content="+">+</button>
+      <button class="btn num" id="minus" content="-">-</button>
+      <button class="btn num" id="divide" content="/">/</button>
+      <button class="btn num" id="mul" content="*">x</button>
+      <button class="btn" id="ans">=</button>
+    </div>
+  </div>
+  <script type="module" src="main.js"></script>
+</body>
 </html>
