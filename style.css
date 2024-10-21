@@ -1,0 +1,25 @@
+/* Importing font */
+@import url(font);
+
+/* Declaring Global Variables */
+:root{
+    --clr-bg-light: ;
+    --clr-bg-dark: ;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'name', sans-serif;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{}
+::-webkit-scrollbar-thumb{}
+::-webkit-scrollbar-track{}
+
+img, picture, canvas, video{
+    display: block;
+}
